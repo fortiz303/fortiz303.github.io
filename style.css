@@ -18,7 +18,6 @@ body {
 	margin: 6rem;
 }
 
-
 .catagory {
 	text-align: left;
 	font-size: 4rem;
@@ -62,7 +61,7 @@ body {
 header {
 	width: 100%;
 	position: fixed;
-	background-color: #26532B;
+	background-color: #222;
 	z-index: 1;
 	padding-top: 1rem;
 }
@@ -90,6 +89,13 @@ ul li {
 	padding: 0rem 0;
 }
 
+#adjust {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
 nav {
 	float:right;
 	text-align: center;
@@ -114,7 +120,7 @@ li a:hover {
 /*----------Banner Styles----------*/
 
 #banner {
-	background-color: #4285F4;
+	background-color: #222;
 	width:100%;
 	height: 100%;
 	color: #fff;
@@ -151,6 +157,7 @@ li a:hover {
 	background-color: #fff;
 	color: #222;
 	display: flex;
+	text-size-adjust: auto;
 }
 
 #profile {

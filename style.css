@@ -157,12 +157,16 @@ li a:hover {
 	background-color: #fff;
 	color: #222;
 	display: flex;
-	text-size-adjust: auto;
+}
+
+#resizethis {
+	color:blue;
 }
 
 #profile {
 	float: right;
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	height: auto;
 	width: 350px;
   margin:0 0 0 3rem;
@@ -182,10 +186,6 @@ div .content {
     		float: left;
     	}
 
-	 #profiletext{
-
-
-	}
   	#profile {
 			align-items: center;
     	}
